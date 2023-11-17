@@ -11,7 +11,7 @@ const TableFilters = () => {
   useEffect(() => {
     dispatch(setStableState(showStable))
     dispatch(setListDisplay(showFavList))
-  }, [showStable, showFavList])
+  }, [showStable, showFavList, dispatch])
 
   return (
     <div className="table-filters">

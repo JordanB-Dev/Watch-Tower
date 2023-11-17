@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable react/prop-types */
+import  { useState } from "react";
 import { useSelector } from "react-redux";
 import TableLine from "./TableLine";
 import ToTop from "./ToTop";

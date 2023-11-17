@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable react/prop-types */
+import  { useEffect, useState } from "react";
 
 const StarIcon = ({ coinId }) => {
   const [like, setLike] = useState(false);
